@@ -1,0 +1,19 @@
+# Large cache directories (reproducible from source)
+hl_cache*/
+trades_cache/
+ofi_cache/
+*_cache/
+
+# Decompressed raw data
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+*.parquet
